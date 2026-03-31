@@ -33,3 +33,29 @@ body{
 
 }
 
+.fields{
+    display: flex;
+    gap: 30px;
+}
+
+.left-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.set{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 70%;
+}
+
