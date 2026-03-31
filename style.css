@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    gap: 10px;
+}
+
+.homePicture{
+    position: relative;
+}
+
+#spacePicture{
+    height: 100%;
+}
+
+.caption{
+    position: absolute;
+    background: transparent;
+    opacity: 0.8;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.mainHeader{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
