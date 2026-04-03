@@ -17,50 +17,53 @@
             
         </div>
         <div class="formContainer">
+            <div class="description">
+                <p>Ever wanted to experience space in your room? Of course you have! At Lunar Immersion, we provide a space experience like no other! Try out our lunar pools for just 50 rand an hour!</p>
+                <p>You know you want to!</p>
+            </div>
             <form>
+                <p>Let's do this!</p>
                 <div class="fields">
                     <div class="left-fields">
                         <div class="set">
                             <label for="firstName">FIRST NAME</label>
-                            <input type="text" id="firstName">
+                            <input type="text" id="firstName" name="firstname" required>
                         </div>
                         
                         <div class="set">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email">
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
                         </div>
                         
                         <div class="set">
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password">   
+                            <input type="password" id="password" name="password" minlength="5" >   
                         </div>
                         
                     </div>
                     <div class="right-fields">
                         <div class="set">
                             <label for="lastName">LAST NAME</label>
-                            <input type="text" id="lastName">
+                            <input type="text" id="lastName" name="lastname" required>
                         </div>
                         
                         <div class="set">
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="text" id="phone">
+                            <input type="text" id="phone" name="phone" minlength="10" maxlength="10" required>
                         </div>
                         
                         <div class="set">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-password">
+                            <input type="password" id="confirm-password" name="confirm-password" minlength="5">
                         </div>
                     </div>
                 </div>
+                <div class="accountSection">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
             </form>
-
         </div>
-
-
     </div>
-  
-
-    
 </body>
 </html> 
