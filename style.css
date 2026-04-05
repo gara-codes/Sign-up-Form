@@ -36,6 +36,7 @@ body{
 .fields{
     display: flex;
     gap: 30px;
+    margin-left: 50px;
 }
 
 .left-fields{
@@ -66,4 +67,8 @@ input{
 .accountSection{
     margin-top: 20px;
     background-color: whitesmoke;
+}
+
+img{
+    height: 100%;
 }
